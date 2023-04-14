@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
             900: Color(0xFF5663F7),
    },),
       ),
-      home: const MyHomePage(title: 'ChatBot GPT'),
+      home: const MyHomePage(title: 'Rayen GPT'),
     );
   }
 }

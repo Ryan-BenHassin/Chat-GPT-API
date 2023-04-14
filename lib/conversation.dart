@@ -21,9 +21,13 @@ class _QuestionState extends State<Question> {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Padding(
-            padding: EdgeInsets.symmetric(horizontal: 10),
-            child: Icon(Icons.person, size: 35, color: Colors.white,),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 10),
+            child: Container(
+              width: 35,
+              height: 35,
+              child: const Icon(Icons.person, color: Colors.white,)
+              ),
           ),
     
           Expanded(
